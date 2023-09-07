@@ -1,0 +1,63 @@
+body {
+  background-image: url('step-runner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: monospace, sans-serif;
+  text-align: center;
+  height: 100vh;
+  color: rgb(84, 88, 92);
+}
+
+.container {
+  background: white;
+  max-width: 80%;
+  margin: 20% auto;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+@media (min-width: 800px) {
+  .container {
+    max-width: 50%;
+  }
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  outline: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#increment-btn {
+  background: #017b9a;
+}
+
+#save-btn {
+  background: #7f2d3b;
+}
+
+#save-el {
+  font-weight: bold;
+  padding-right: 10px;
+}
